@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body {
+    background-color: #f0f2f5;
+}
+.facebook-container {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+}
+.facebook-container .fb-box-item:first :first-child {
+    flex-basis: 60%;
+} 
+.facebook-container .fb-box-item:first :last-child {
+    flex-basis: 50%;
+}
+
+
+
+.facebook-container .fb-benner-item img {
+    width: 400px;
+
+} 
+.facebook-container .fb-benner-item h2 {
+    font-size: 30px;
+    font-weight: 400
+    
+}
+    
+.facebook-container .fb-box-item .user-info {
+    box-shadow:  0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.facebook-container .fb-box-item .user-info form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.facebook-container .fb-box-item .user-info form .form-control {
+    padding: 16px 15px;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #111;
+
+}
+.facebook-container .fb-box-item .user-info form .form-control:focus {
+    border: 1px solid #0866ff;
+}
+::placeholder {
+    color: #ccc;
+    font-size: 20px;
+}
+::placeholder:focus {
+    color:#0866ff ;
+}
+.facebook-container .fb-box-item .user-info form .submit {
+    background-color: #0866ff;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.facebook-container .fb-box-item .user-info form .submit:hover {
+    text-decoration: underline;
+}
+.facebook-container .fb-box-item .user-info .updated {
+    margin-top: 20px;
+    text-align: center;
+
+}
+.facebook-container .fb-box-item .user-info .updated a {
+    margin: 15px 0;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #0866ff;
+}
+.facebook-container .fb-box-item .user-info .updated a:hover {
+    text-decoration: underline;
+}
+.facebook-container .fb-box-item .user-info .updated .farjat {
+    background-color: #36a420;
+    padding: 12px 20px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 9px;
+    font-size: 18px;
+}
+.facebook-container .fb-box-item .user-info .updated .farjat:hover {
+    text-decoration: underline;
+}
+.facebook-container .fb-box-item .user-info .updated hr {
+    margin: 10px 0;
+    height: 1.5px;
+    background-color: #ccc;
+    border: none;
+}
+.facebook-container .fb-box-item .article {
+    margin: 20px 0;
+    text-align: center;
+}
+.facebook-container .fb-box-item .article span {
+    font-weight: 700;
+
+}
+.facebook-container .fb-box-item .article span:hover {
+    text-decoration: underline;
+}
+footer{
+
+    width: 100%;
+    padding: 15px 5;
+    background: #fff;
+ 
+}
+footer .footer-container{
+    width: 80%;
+    margin: auto;
+
+}
+footer .footer-header {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+   
+}
+footer .footer-header.icon{
+    padding: 5px;
+    border: 5px solid green;
+}
+footer .footer-header li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+footer .footer-body{
+    display: flex;
+    gap: 5px 15px;
+    list-style: none;
+    flex-wrap:wrap ;
+    margin: 20px 0;
+
+}
+footer .footer-body li {
+    font-size: 15px;
+    font-weight: 500px;
+}
+footer .footer-body li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
